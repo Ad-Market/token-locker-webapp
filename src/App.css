@@ -1,0 +1,355 @@
+.uniswap_logo_button{
+    max-width: 38px;
+    margin-right: 17px;
+}
+
+.pancake_logo_button{
+    max-width: 38px;
+    margin-right: 17px;
+}
+
+.senpai_button {
+    height: 74px;
+    margin-right: 7px;
+    display: inline-grid;
+    align-items: center;
+}
+
+.button-group .btn-bordered-white{
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.btn-group .btn-secondary{
+    width: 25%;
+    padding: 20px 0px;
+}
+
+.btn-group, .btn-group-vertical {
+    display: flex;
+}
+
+.nav-item .btn-bordered-white{
+    white-space: nowrap; 
+    width: 250px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chain-image{
+    width: 83px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.availableBalance{
+    color: #02ef6c;
+}
+.tokenMaker {
+    color: #f5f5f5;
+}
+.tokenMakerDetails {
+    margin: 0.1rem;
+    font-size: 0.9rem;
+}
+.payoutWallet {
+    border: 1px solid #464d5d;
+    padding: 10px;
+    display: flex;
+}
+
+.removePayrollWalletBtn{
+    position: absolute;
+    top: 4px;
+    right: 17px;
+    max-width: 100px;
+}
+
+.cancelBtn{
+    margin: 0;
+    cursor: pointer;
+    padding: 4px;
+    text-align: center;
+    color: #fff;
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    background-color: #ff4247;
+    border: 1px solid #ff7a7d;
+    transition-property: background-color;
+    transition: .25s linear;
+}
+
+@media only screen and (max-width: 1024px){
+    .uniswap_logo_button{
+        max-width: 35px;
+        margin-right: 14px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 35px;
+        margin-right: 14px;
+    }
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 13px;
+        padding: 16px;
+    }
+
+    .senpai_button {
+        height: 71px;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .button-group {
+        text-align: center;
+    }
+
+    .btn-wallet {
+        font-size: 15px !important;
+        width: 180px !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .nav-item .btn-bordered-white{
+        white-space: nowrap;
+        overflow: hidden;
+        width: auto;
+        text-overflow: ellipsis;
+    }
+
+    body h1 {
+        font-size: 2.5rem;
+    }
+
+    .btn.content-btn {
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+
+    .uniswap-lp-content {
+        display: block !important;
+    }
+
+    .pancakeswap-lp-content {
+        display: block !important;
+    }
+
+    .intro-btn .btn-bordered-white {
+        padding: 16px 20px;
+        font-size: 15px;
+        margin: 3px;
+    }
+
+    .uniswap_logo_button{
+        max-width: 31px;
+        margin-right: 4px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 31px;
+        margin-right: 4px;
+    }    
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 11px;
+        padding: 9px;    
+    }
+
+    .senpai_button {
+        height: 52.5px;
+        margin-right: 5px;
+    }
+
+    .intro-btn .btn-bordered-white {
+        padding: 13px;
+        font-size: 14px;
+        margin: 3px;
+    }        
+}
+
+@media only screen and (max-width: 414px){
+    .uniswap_logo_button{
+        max-width: 24px;
+        margin-right: 2px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 24px;
+        margin-right: 2px;
+    }    
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 11px;
+        padding: 7px;    
+    }
+
+    .senpai_button {
+        height: 43px;
+        margin-right: 3px;
+    }
+
+    .intro-btn .btn-bordered-white {
+        padding: 13px;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+    .btn-wallet {
+        font-size: 15px !important;
+        width: 140px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .uniswap_logo_button{
+        max-width: 22px;
+        margin-right: 4px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 22px;
+        margin-right: 4px;
+    }
+
+    .button-group {
+        text-align: center;
+    }
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 10px;
+        padding: 7px;    
+    }
+
+    .senpai_button {
+        height: 40px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .uniswap_logo_button{
+        max-width: 22px;
+        margin-right: 4px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 22px;
+        margin-right: 4px;
+    }
+
+    .button-group {
+        text-align: center;
+    }
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 10px;
+        padding: 7px;    
+    }
+
+    .senpai_button {
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    body h1 {
+        font-size: 2rem;
+    }
+
+    .intro-btn .btn-bordered-white {
+        padding: 11px;
+        font-size: 13px;
+        margin: 3px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .uniswap_logo_button{
+        max-width: 18px;
+        margin-right: 1px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 18px;
+        margin-right: 1px;
+    }
+
+    .button-group {
+        text-align: center;
+    }
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 10px;
+        padding: 5px;    
+    }
+
+    .senpai_button {
+        height: 34px;
+        margin-right: 3px;
+    }
+
+    body h1 {
+        font-size: 2rem;
+    }
+
+    .intro-btn .btn-bordered-white {
+        padding: 10px;
+        font-size: 11px;
+        margin: 3px;
+    }
+
+    .btn-wallet {
+        font-size: 15px !important;
+        width: 120px !important;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .uniswap_logo_button{
+        max-width: 15px;
+        margin-right: 1px;
+    }
+    
+    .pancake_logo_button{
+        max-width: 15px;
+        margin-right: 1px;
+    }
+
+    .button-group {
+        text-align: center;
+    }
+
+    .button-group .btn-bordered-white{
+        margin-bottom: 7px;
+        font-size: 8px;
+        padding: 4px;    
+    }
+
+    .senpai_button {
+        height: 28.5px;
+        margin-right: 3px;
+    }
+
+    body h1 {
+        font-size: 1.5rem;
+    }    
+
+    .intro-btn .btn-bordered-white {
+        padding: 9px;
+        font-size: 10px;
+        margin: 3px;
+    }
+
+    .btn-wallet {
+        font-size: 15px !important;
+        width: 100px !important;
+    }
+}
